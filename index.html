@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border nav-padding">
+          <div class="logo">
+            <img
+              src="assets/amazon_logo.png"
+              alt="Amazon Logo"
+              width="100%"
+              height="100%"
+            />
+            <div class="ca_domain"><span>.ca</span></div>
+          </div>
+
+          <!-- <div class="logo"></div> -->
+        </div>
+        <div class="nav-address border nav-padding">
+          <p class="add-first">Delivering to Ottawa K1K</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">Update location</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input placeholder="Search Amazon.ca" class="search-input" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="nav-lang border nav-padding">
+          <div class="flag_icon">
+            <img src="assets/icon_canada.png" width="100%" />
+          </div>
+          EN
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="nav-signin-return border nav-padding">
+          <p><span>Hello, sign in</span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <!-- To be Changed After -->
+
+        <div class="nav-signin-return border nav-padding">
+          <p><span>Hello, sign in</span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+        <!-- //////////// -->
+        <div class="nav-signin-return border nav-padding">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border nav-padding">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart</span>
+        </div>
+      </div>
+      <!-- Panel -->
+      <div class="panel">
+        <div class="panel-all border panel-padding">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+
+        <div class="panel-ops border panel-padding">Today's Deals</div>
+        <div class="panel-ops border panel-padding">Best Sellers</div>
+        <div class="panel-ops border panel-padding">Prime</div>
+        <div class="panel-ops border panel-padding">Electronics</div>
+        <div class="panel-ops border panel-padding">New Releases</div>
+        <div class="panel-ops border panel-padding">Home</div>
+        <div class="panel-ops border panel-padding">Books</div>
+        <div class="panel-ops border panel-padding">Fashion</div>
+        <div class="panel-ops border panel-padding">Toys & Games</div>
+        <div class="panel-ops border panel-padding">Music</div>
+        <div class="panel-ops border panel-padding">Gift Ideas</div>
+        <div class="panel-ops border panel-padding">Sports & Outdoors</div>
+        <div class="panel-ops border panel-padding">Computers</div>
+        <div class="panel-ops right-side-item border panel-padding">
+          Cyber Monday Deals
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <img src="assets/hero-image-green_.jpg" alt="" />
+        </div>
+      </section>
+      <section class="products">
+        <div class="pro-sec-1">
+          <!-- Box-1 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Today's Deals</h3>
+              </div>
+              <div id="promotion-box" class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/offer-1.jpg')"
+                  ></div>
+                  <div class="offer-label">
+                    <div class="offer-amount">17% off</div>
+                    <div class="offer-time">Limited-time deal</div>
+                  </div>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/offer-2.jpg')"
+                  ></div>
+                  <div class="offer-label">
+                    <div class="offer-amount">47% off</div>
+                    <div class="offer-time">Limited-time deal</div>
+                  </div>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/offer-3.jpg')"
+                  ></div>
+                  <div class="offer-label">
+                    <div class="offer-amount">43% off</div>
+                    <div class="offer-time">Limited-time deal</div>
+                  </div>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/offer-4.jpg')"
+                  ></div>
+                  <div class="offer-label">
+                    <div class="offer-amount">25% off</div>
+                    <div class="offer-time">Limited-time deal</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Box-2 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Shop holiday gifts</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Electronics.jpg')"
+                  ></div>
+                  <p>Electronics</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Toys.jpg')"
+                  ></div>
+                  <p>Toys</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Fashion.jpg')"
+                  ></div>
+                  <p>Fashion</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Beauty.jpg')"
+                  ></div>
+                  <p>Beauty</p>
+                </div>
+              </div>
+
+              <a href="">Explore the Holiday Shop</a>
+            </div>
+          </div>
+          <!-- Box-3 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Explore deals on gifts</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Under $10.jpg')"
+                  ></div>
+                  <p>Under $10</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Under $25.jpg')"
+                  ></div>
+                  <p>Under $25</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Under $50.jpg')"
+                  ></div>
+                  <p>Under $50</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Under $75.jpg')"
+                  ></div>
+                  <p>Under $75</p>
+                </div>
+              </div>
+
+              <a href="">Explore the Holiday Shop</a>
+            </div>
+          </div>
+          <!-- Box-4 -->
+          <div class="promo-box transparent-box-4">
+            <div class="box-sign-in">
+              <div class="title">
+                <h3>Sign in for yourbest experience</h3>
+              </div>
+              <div class="button-sign-in">Sign in securely</div>
+            </div>
+            <div class="advertisement">
+              <div
+                class="advertisement-img"
+                style="background-image: url('assets/advertisement-img.jpg')"
+              ></div>
+              <div class="sponsored">
+                <a href="">Sponsored <i class="fa-solid fa-circle-info"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Box-5 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Last minute tech gifts</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Gaming.jpg')"
+                  ></div>
+                  <p>Gaming</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="
+                      background-image: url('assets/Headphones & Speakers.jpg');
+                    "
+                  ></div>
+                  <p>Headphones & Speakers</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Wearable Gadgets.jpg')"
+                  ></div>
+                  <p>Wearable Gadgets</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Camera & Video.jpg')"
+                  ></div>
+                  <p>Camera & Video</p>
+                </div>
+              </div>
+
+              <a href="">Shop all</a>
+            </div>
+          </div>
+          <!-- Box-6 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Shop NHL must-haves</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Apparel.jpg')"
+                  ></div>
+                  <p>Apparel</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Home.jpg')"
+                  ></div>
+                  <p>Home</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Auto.jpg')"
+                  ></div>
+                  <p>Auto</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Jerseys.jpg')"
+                  ></div>
+                  <p>Jerseys</p>
+                </div>
+              </div>
+
+              <a href="">Shop now</a>
+            </div>
+          </div>
+          <!-- Box-7 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Save with Amazon Coupons</h3>
+              </div>
+              <div
+                class="promo-box-img"
+                style="background-image: url('assets/box7_image.jpg')"
+              ></div>
+
+              <a href="">Explore coupons</a>
+            </div>
+          </div>
+          <!-- Box-8 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Holiday hosting specials</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Cookware.jpg')"
+                  ></div>
+                  <p>Cookware</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Home & Kitchen.jpg')"
+                  ></div>
+                  <p>Home & Kitchen</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Tableware.jpg')"
+                  ></div>
+                  <p>Tableware</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="background-image: url('assets/Grocery.jpg')"
+                  ></div>
+                  <p>Grocery</p>
+                </div>
+              </div>
+
+              <a href="">Explore the Holiday Shop</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product Section 2 -->
+        <div class="pro-sec-2">
+          <div class="title">
+            <h3>Save with Amazon Coupons</h3>
+          </div>
+          <div class="sample">
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img1.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img10.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img3.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img4.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img5.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img6.jpg');
+                width: 100%;
+              "
+            ></div>
+            <div
+              class="block"
+              style="
+                background-image: url('assets/pro-sec-2-img7.jpg');
+                width: 100%;
+              "
+            ></div>
+          </div>
+        </div>
+        <!-- Product Section 3 -->
+        <div class="pro-sec-3">
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Handpicked electronics</h3>
+              </div>
+              <div class="product-normal-box">
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="
+                      background-image: url('assets/box-1-1-pro-sec-3.jpg');
+                    "
+                  ></div>
+                  <p>Laptops</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="
+                      background-image: url('assets/box-1-2-pro-sec-3.jpg');
+                    "
+                  ></div>
+                  <p>Tech spotlight</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="
+                      background-image: url('assets/box-1-3-pro-sec-3.jpg');
+                    "
+                  ></div>
+                  <p>Air fryers</p>
+                </div>
+                <div class="product-normal">
+                  <div
+                    class="product-normal-img"
+                    style="
+                      background-image: url('assets/box-1-4-pro-sec-3.jpg');
+                    "
+                  ></div>
+                  <p>TVs</p>
+                </div>
+              </div>
+
+              <a href="">Shop deals</a>
+            </div>
+          </div>
+          <!-- Box-2 Pro-sec-3 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Dive into captivating games</h3>
+              </div>
+              <div
+                class="promo-box-img"
+                style="background-image: url('assets/box-2-pro-sec-3.jpg')"
+              ></div>
+
+              <a href="">Shop Amazon Games now</a>
+            </div>
+          </div>
+          <!-- Box-3 Pro-sec-3 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>Holiday Favourites</h3>
+              </div>
+              <div
+                class="promo-box-img"
+                style="background-image: url('assets/box-3-pro-sec-3.jpg')"
+              ></div>
+
+              <a href="">Watch Now</a>
+            </div>
+          </div>
+          <!-- Box-4 Pro-sec-3 -->
+          <div class="promo-box">
+            <div class="promo-content">
+              <div class="title">
+                <h3>TV wall mounting service</h3>
+              </div>
+              <div
+                class="promo-box-img"
+                style="background-image: url('assets/box-4-pro-sec-3.jpg')"
+              ></div>
+
+              <a href="">Shop TV deals</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="personalized-signin">
+        <div class="container">
+          <div class="title">
+            <h2>See personalized recommendations</h2>
+          </div>
+          <div class="button">Sign in</div>
+          <p>New customer? <a href="">Start here</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot-panel-1">Back to top</div>
+      <div class="foot-panel-2">
+        <ul>
+          <p>Get to Know Us</p>
+          <a href="">Careers</a>
+          <a href="">Amazon and Our Planet</a>
+          <a href="">Modern Slavery Statement</a>
+          <a href="">Investor Relations</a>
+          <a href="">Press Releases</a>
+          <a href="">Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a href="">Sell on Amazon</a>
+          <a href="">Supply to Amazon</a>
+          <a href="">Become an Affiliate</a>
+          <a href="">Protect & Build Your Brand</a>
+          <a href="">Sell on Amazon Handmade</a>
+          <a href="">Advertise Your Products</a>
+          <a href="">Independently Publish with Us</a>
+          <a href="">Host an Amazon Hub</a>
+        </ul>
+
+        <ul>
+          <p>Amazon Payment Products</p>
+          <a href="">Amazon.ca Rewards Mastercard</a>
+          <a href="">Shop with Points</a>
+          <a href="">Reload Your Balance</a>
+          <a href="">Amazon Currency Converter</a>
+          <a href="">Gift Cards</a>
+          <a href="">Amazon Cash</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a href="">Shipping Rates & Policies</a>
+          <a href="">Amazon Prime</a>
+          <a href="">Returns Are Easy</a>
+          <a href="">Manage your Content and Devices</a>
+          <a href="">Recalls and Product Safety Alerts</a>
+          <a href="">Registry & Gift List</a>
+          <a href="">Customer Service</a>
+        </ul>
+      </div>
+      <div class="foot-panel-3">
+        <div class="foot-logo">
+          <img
+            src="assets/amazon_foot_logo.png"
+            alt="Amazon Logo"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="foot-lang">
+          <i class="fa fa-light fa-globe"></i>
+          English
+          <i class="fa-solid fa-sort lang-arrow"></i>
+        </div>
+        <div class="foot-region foot-lang">
+          <div class="flag_icon">
+            <img src="assets/icon_canada.png" width="100%" />
+          </div>
+          Canada
+        </div>
+      </div>
+      <div class="foot-panel-4">
+        <!-- Include services here -->
+        <ul>
+          <div>
+            <p>Amazon Music</p>
+            <a href="">Stream millions of songs</a>
+          </div>
+          <div>
+            <p>Goodreads</p>
+            <a href="">Book reviews & recommendations</a>
+          </div>
+        </ul>
+        <ul>
+          <div>
+            <p>Amazon Advertising</p>
+            <a href="">Find, attract and engage customers</a>
+          </div>
+          <div>
+            <p>IMDb</p>
+            <a href="">Movies, TV & Celebrities</a>
+          </div>
+          <div>
+            <p>Whole Foods Market</p>
+            <a href="">We Believe in Real Food</a>
+          </div>
+        </ul>
+        <ul>
+          <div>
+            <p>Amazon Business</p>
+            <a href="">Everything for your business</a>
+          </div>
+          <div>
+            <p>Amazon Photos</p>
+            <a href="">Unlimited Photo Storage Free With Prime</a>
+          </div>
+          <div>
+            <p>Amazon Renewed</p>
+            <a href="">Like-new products you can trust</a>
+          </div>
+        </ul>
+        <ul>
+          <div>
+            <p>Amazon Drive</p>
+            <a href="">Cloud storage from Amazon</a>
+          </div>
+          <div>
+            <p>Shopbop</p>
+            <a href="">Designer Fashion Brands</a>
+          </div>
+          <div>
+            <p>Blink</p>
+            <a href="">Smart Security for Every Home</a>
+          </div>
+        </ul>
+        <ul>
+          <div>
+            <p>Amazon Web Services</p>
+            <a href="">Scalable Cloud Computing Services</a>
+          </div>
+          <div>
+            <p>Amazon Resale</p>
+            <a href="">Great Deals on Quality Used Products</a>
+          </div>
+        </ul>
+      </div>
+      <div class="foot-panel-5">
+        <div class="policies">
+          <a href="">Conditions of Use</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Interest-Based Ads</a>
+        </div>
+        <div class="copyright">
+          © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+      </div>
+      <div class="foot-panel-6">
+        <div class="foot-contact">
+          Amazon.com.ca ULC | 40 King Street W 47th Floor, Toronto, Ontario,
+          Canada, M5H 3Y2 |1-877-586-3230
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
